@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import List from "./Components/List"
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         Header
       </header>
       <div>
-        Body
+        <List />
       </div>
     </div>
   );
