@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #eeebd3;
+  height: 100vh;
 }
 
 .App-logo {
@@ -7,22 +9,43 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #255957;
   display: flex;
   flex-direction: column;
   height: 10%;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #e7c548;
 }
 
 .submit {
   height: 25px;
   width: 50px;
-  background-color: #09d3ac;
+  background-color: #508ca4;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.button {
+  height: 20px;
+  width: 50px;
+  margin: 5px 2px 5px 2px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-grow: 1;
+  flex-direction: row;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 1px solid black;
+}
+
+.todo-text {
+  flex-grow: inherit;
 }
